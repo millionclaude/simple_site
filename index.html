@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプルサイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">My Site</div>
+      <ul>
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">連絡先</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>ようこそ</h1>
+      <p>シンプルでクリーンなウェブサイトへようこそ。</p>
+      <a href="#about" class="btn">詳しく見る</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>機能 1</h3>
+          <p>シンプルで使いやすいデザインを追求しています。</p>
+        </div>
+        <div class="card">
+          <h3>機能 2</h3>
+          <p>レスポンシブ対応でどんな端末でも快適に閲覧できます。</p>
+        </div>
+        <div class="card">
+          <h3>機能 3</h3>
+          <p>モダンなHTML/CSSで構築されています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>連絡先</h2>
+      <form>
+        <input type="text" placeholder="お名前" required>
+        <input type="email" placeholder="メールアドレス" required>
+        <textarea placeholder="メッセージ" rows="5" required></textarea>
+        <button type="submit" class="btn">送信</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Site. All rights reserved.</p>
+  </footer>
+</body>
+</html>
